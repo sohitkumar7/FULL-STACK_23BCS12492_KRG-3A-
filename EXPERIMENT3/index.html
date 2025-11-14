@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Product Filter</h1>
+  </header>
+
+  
+  <div class="controls">
+    <select id="filter">
+      <option value="all">All Products</option>
+      <option value="electronics">Electronics</option>
+      <option value="clothing">Clothing</option>
+    </select>
+
+    <input type="text" id="search" placeholder="Search products..." />
+  </div>
+
+  <!-- Product container -->
+  <div id="products-container" class="products"></div>
+
+  <footer>
+    <p>© 2025 Product Store | Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
